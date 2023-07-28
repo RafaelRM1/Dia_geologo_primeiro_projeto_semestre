@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+/*Reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Body*/
+body {
+    font-size: 100%;
+    background-color:rgb(26,26,26);
+    background-size: auto;
+}
+
+
+/*Header*/
+.header {
+    background-color: rgb(43,43,43);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+/* Header menu */
+.header-menu {
+    display: flex;
+    gap: 32px;
+    
+}
+
+/* Header menu itens*/
+.header-menu-item {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu-item:hover {
+    color: pink;
+    text-decoration: underline rgba(236, 214, 196, 0.53);
+}
+
+/* Conteudos */
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid black;
+    padding: 20px;
+}
+
+/* Conteudo principal index.html */
+.conteudo-principal-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Conteudo escrito */
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 1em;
+}
+
+/* Conteudo escrito titulo */
+.conteudo-principal-titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgb(223, 116, 134);
+    font-weight: 400;
+    font-size: 55px;
+}
+ 
+/* Conteudo principal paragrafos */
+.conteudo-principal-paragrafo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#paragrafo-botao-index{
+    padding-right: 200px;
+    padding-left: 330px;
+    font-size: larger;
+    color:black;
+}
+#titulo-index{
+    padding-left: 370px;
+    align-items: center;
+}
+
+#titulo-mapa{
+    padding-left: 25%;
+    padding-right: 20%;
+    align-items: center;
+}
+
+#mapa-mapa{
+    padding-left: 230px;
+    align-items: center;
+}
+#paragrafo-mapa{
+    padding-left: 160px;
+    align-items: center;
+}
+
+#paragrafo-principal-mapa{
+    padding-left: 76px;
+    padding-right:76px;
+    align-items: center;
+}
+
+/* Conteudo imagem index.html */
+.conteudo-principal-imagem-index{
+    width: 1200px;
+    border-radius: 20px;
+    margin-top: 30px;  
+}
+
+/* Conteudo secundario */
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px
+}
+
+/* Conteudo secundario titulo*/
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid black;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+
+/* Conteudo secundario paragrafos*/
+.conteudo-secundario-paragrafo {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+
+}
+/* Conteudo principal sobre.html/areaAtuacao.html*/
+.conteudo-principal-sobre-area {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+/*Conteudo imagem geral*/
+.conteudo-imagem{
+    border-radius: 20px;
+}
+
+/*video-imagens*/
+.imagens{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content:right;
+    margin:10px;
+}
+/* Conteudo faleConosco.html*/
+.conteudo-fac {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    padding: 20px;
+}
+
+/* Conteudo principal faleConosco.html */
+.conteudo-principal-fac{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: space-around;
+}
+
+/* Conteudo escrito faleConosco.html */
+.conteudo-escrito-fac{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 200px;
+
+}
+
+/* Conteudo principal titulo faleConosco.html*/
+.conteudo-principal-fac-titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:rgb(223, 116, 134);
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 40px;
+    
+    margin-top: 40px;
+}
+
+#titulo-msg-fac{
+    align-items: center;
+    padding-top: 100px ;
+    padding-left: 300px;
+    padding-right: 200px;
+    font-size: 30px;
+    
+}
+#texto-fac{
+    align-items: center;
+    padding-top: 10px ;
+    padding-left: 300px;
+    padding-right: 200px;
+}
+/* Conteudo imagem faleConosco.html */
+.conteudo-principal-imagem-fac{
+    border-radius: 10%;
+    margin-top: 40px;
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+}
+
+/*Campo onde estão as labels*/
+.campo{
+    margin-bottom: 1em;
+}
+
+/*Custom das labels */
+.campo label{
+    margin-bottom: 0.2em;
+    color:black;
+    display:block;
+}
+
+/* Custom textarea */
+.campo textarea{
+    padding: 1em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+    border-width: 1px;
+    border-style:solid ;
+}
+
+/* Custom inputs */
+.campo input[type="text"],.campo input[type="email"]{
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+/* Custom inputs,textarea e buttons letras */
+input,textarea,button{
+    font-family: sans-serif;
+    font-size: 1em;
+    color:black;
+    border-radius:5px;
+}
+
+/*Botão home*/
+.button-home {
+    border:rgb(26,26,26);
+    background: rgb(43,43,43);
+    border-radius: 50%;
+    height: 50px;
+}
+
+.button-home:hover{
+    opacity: 1;
+    height: 60px;
+}
+
+/* image home */
+#img-home{
+    position: absolute;
+    border-radius: 20%;
+    height: 50px;
+    top: 12px;
+}
+#img-home:hover{
+    height: 53px;
+    
+}
+
+/*Botões gerais */
+.botao{
+    background-color: #f3dddd;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #2F2325;
+    
+}
+
+.botao:hover{
+    background: rgb(223, 116, 134);
+    box-shadow: inset 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: none;
+    color: #ffff;
+}
+
+/*Video sobre.html */
+#video{
+    border-radius: 5%;
+}
+
+/* Footer */
+.footer {   
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+    background-color: rgb(43,43,43);
+    position: static;
+    
+}
+
+/* Footer items  */
+.footer-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 4px 20px;
+    color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: rgb(60,60,60);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-item:hover {
+    background-color: rgb(223, 116, 134);
+    color:black;
+}
+
+#godzilla{
+    border-radius: 4%;
+}
+#sh{
+    width: 1px;
+    height: 1px;
+    margin-top: 70px;
+}
+
